@@ -5,6 +5,9 @@
 		"factoryName": {
 			"value": "TestAnshulADF"
 		},
+		"AzureBlobStorage1aaaaaaaaa_connectionString": {
+			"value": ""
+		},
 		"containerUri": {
 			"value": ""
 		},
