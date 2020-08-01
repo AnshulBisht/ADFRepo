@@ -1,0 +1,29 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1aaaaaaaaa",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "18_03_37_120_0.xel",
+				"folderPath": "pwcsqlserver/SQLDataBase/SqlDbAuditing_ServerAudit/2020-07-30",
+				"container": "sqldbauditlogs"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Z7��",
+				"type": "String"
+			}
+		]
+	}
+}
