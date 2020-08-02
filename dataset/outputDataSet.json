@@ -10,7 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureDataLakeStoreLocation",
-				"folderPath": "Test"
+				"folderPath": "Output"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
